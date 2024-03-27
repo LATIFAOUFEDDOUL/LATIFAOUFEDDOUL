@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Architects+Daughter&family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=REM:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=REM:ital,wght@0,100..900;1,100..900&family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Media Queries -->
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+    <!-- CSS and JavaScript -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/784bf802ff.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+<main>
+    <!-- Header -->
+    <header id="home">
+        <video id="bgvideo" loop autoplay muted>
+            <source src="media/pexels_videos_2611250 (2160p).mp4" type="video/mp4">
+        </video>
+        <nav class="nav-fixed">
+            <img src="image/latifa.png" alt="logo" id="logo">
+            <ul class="links">
+                <li> <a href="#home">Home</a></li>
+                <li> <a href="#about">About Me</a></li>
+                <li> <a href="#skills">Skills</a></li>
+                <li> <a href="#projects">Projects</a></li>
+                <li> <a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="quoatesection">
+           <span> <h1 id="quoat0">Welcome I'm </h1></span>
+           <span><h1 id="quoat1">Oufeddoul <b style="color: aqua;">Latifa</b></h1></span>
+           <span><h5 id="quoat2">Full-Stack MERN & Mobile Application developer</h5>           </span>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="aboutme">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <div class="bi">
+                        <h1 class="titl2">About Me</h1>
+                    </div>
+                        <div class="about">
+                            <p id="paragraph">I'm a junior <br> mobile app developer <br>
+                                with a passion for crafting engaging user experiences. <br>
+                                Currently diving into the world of MERN stack <br> web development, <br>
+                                I'm eager to expand my skills and contribute to innovative projects.</p>
+                        </div>
+                </div>
+                <div class="col2">
+                    <div class="titles">
+                        <p class="ttl active-link" onclick="opentab('education')">Education</p>
+                        <p class="ttl" onclick="opentab('experience')">Experience</p>
+                        <p class="ttl" onclick="opentab('resume')">Resume</p>
+                    </div>
+                    <div class="aboutcontent active-tab" id="education">
+                        <ul>
+                            <li><span>2024</span><br><h4> Ark-x Academy </h4><p> . Full-Stack JS MERN</p></li>
+                            <li><span>2023</span><br><h4> Specialized Institute of Applied Technology</h4><p> . Digital development of mobile applications</p> </li>
+                            <li><span>2021</span><br><h4>Faculty of Legal, Economic and Social Sciences </h4><p> . Economics and Management</p></li>
+                            <li><span>2020</span><br><h4> Elmajd High School</h4><p> . physical science and chemistry</p></li>
+                        </ul>
+                    </div>
+                    <div class="aboutcontent" id="experience">
+                        <div class="experience-container">
+                            <div class="experience-box">
+                                <h3>Ark-x Mern Stack Bootcamp </h3>
+                                <p><span>2024 - Casablanca</span><br><br>A comprehensive program that helps young talents enter the digital sector</p>
+                                <h4>Tasks :</h4>
+                                <ul >
+                                    <li>Participated in hands-on coding exercises and collaborated with
+                                        peers to solve real-world problems.</li>
+                                    <li>Acquired basic front-end development skills
+                                        and backend</li>    
+                                </ul>
+                            </div>
+                            <div class="experience-box">
+                                <h3>YanPlay Agency </h3>
+                                <p><span>2023 - Agadir</span><br> <br>Full-service digital agency - specialized in audiovisual production</p>
+                                <h4>Tasks :</h4>
+                                <ul >
+                                    <li>Contribute to the development of mobile applications under the
+                                        supervision of senior developers.</li>
+                                    <li>supervision of senior developers.
+                                        Explore new technologies, frameworks and
+                                        libraries relevant to application development
+                                        mobile</li>    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="aboutcontent" id="resume">
+                        <ul>
+                            <li><span>Get a detailed overview of my expertise</span> <br><p>Take a Look at My Resume</p></li>
+                            <li>
+                                <a href="image/CV LATIFA-OUFEDDOUL  (3).pdf" download>Download My Resume</a>
+                            <li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sskills section ------------   -->
+<section id="skills" class="skillsection">
+    <div class="container">
+        <h1 class="titl2">My Skills</h1>
+        <div class="skills-container">
+            <div class="skill">
+                <div class="skill-content">
+                    <div class="icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <span  class="span1"><h2>Front-End</h2></span>
+                    <ul>
+                        <li><i class="fas fa-check"></i> HTML</li>
+                        <li><i class="fas fa-check"></i> CSS</li>
+                        <li><i class="fas fa-check"></i> JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-content">
+                    <div class="icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                   <span  class="span2"><h2>Back-End</h2></span>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Node.js</li>
+                        <li><i class="fas fa-check"></i> Express.js</li>
+                        <li><i class="fas fa-check"></i> MongoDB</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-content">
+                    <div class="icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <span class="span3"> <h2>Mobile App </h2>  </span>
+                    <ul>
+                        <li><i class="fas fa-check"></i>java</li>
+                        <li><i class="fas fa-check"></i> Flutter</li>
+                        <li><i class="fas fa-check"></i> React Native</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h1 class="titl2">My Work</h1>
+            <div class="projectslist">
+                <div class="bigdiv">
+                    <div class="secondiv" id="pj1">
+                    </div>
+                    <div class="details" id="d1">
+                        <h3>Blog App</h3>
+                        <p>web development</p>
+                        <a href="">show project</a>
+                        <ul>
+                            <li><span>JavaScript</span></li>
+                            <li><span>node</span></li>
+                            <li><span>express</span></li>
+                            <li><span>MongoDB</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div  class="bigdiv">
+                    <div  class="secondiv" id="pj2">
+                    </div>
+                    <div class="details" id="d2">
+                        <h3>Movie App</h3>
+                        <p>web development </p>
+                        <a href="">show Project</a>
+                        <ul>
+                            <li><span>html</span></li>
+                            <li><span>css</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div   class="bigdiv">
+                    <div class="secondiv" id="pj3">
+                    </div>
+                    <div class="details" id="d3">
+                        <h3>Portfolio</h3>
+                        <p>web development</p>
+                        <a href="">show Project</a>
+                        <ul>
+                            <li><span>html</span></li>
+                            <li><span>css</span></li>
+                            <li><span>JavaScript</span></li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </section>
+</main>
+
+
+
+
+
+<!-- contact -->
+    
+<footer id="contact" class="contact">
+    <h1 class="titl2">Contact Me</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col1cont">
+                <div class="txt">
+                    <p>Have an exciting project you need help with?
+                        Send me an email or contact me via instant message!</p>
+                </div>
+                <p><i class="fa-solid fa-envelope"></i>latifaoufeddoul@gmail.com</p>
+                <p><i class="fa-brands fa-linkedin"></i>latifa-oufeddoul</p>
+                <p><i class="fa-solid fa-phone"></i>06.49.48.91.62</p>
+                <div class="icons">
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="col2cont">
+                <form>
+                    <div class="dd1">
+                        <div class="form-group">
+                            <input class="inpts" type="text" name="subject" placeholder="Inquiry about services">
+                        </div>
+                        <div class="form-group">
+                            <input class="inpts" type="text" name="name" placeholder="oufeddoul latifa">
+                        </div>
+                        <div class="form-group">
+                            <input class="inpts" type="email" name="email" placeholder=" Oufeddoullatifa@gmail.com" required>
+                        </div>
+                        <div class="form-group">
+                            <input class="inpts" type="number" name="email" placeholder="+212 6 34 45 67 78" required>
+                        </div>
+                    </div>
+                    <div class="dd2">
+                        <div>
+                            <textarea class="textere" name="Message" cols="30" rows="6" placeholder="Your Message ...."></textarea>
+                        </div>
+                    </div>    
+                </form>
+                <a class="bttns" href="">Send</a>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+</body>
+</html>
